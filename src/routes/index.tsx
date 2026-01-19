@@ -208,30 +208,33 @@ function App() {
                 dedicação. Entre em contato através dos canais abaixo:
               </p>
               <div className="space-y-3 sm:space-y-4">
-                <Link 
-                  to="https://api.whatsapp.com/send?phone=5544984254142&text=Olá, gostaria de agendar um horário para conversar sobre meu caso."
+                <a 
+                  href="https://api.whatsapp.com/send?phone=5544984254142&text=Olá, gostaria de agendar um horário para conversar sobre meu caso."
                   target="_blank"
+                  rel="noopener noreferrer"
                   className="flex items-center gap-3 sm:gap-4 p-3 rounded-lg hover:bg-cold-pink/10 transition-colors group"
                 >
                   <Phone className="w-5 h-5 sm:w-6 sm:h-6 text-dark-blue" />
                   <span className="text-base sm:text-lg">(44) 98425-4142</span>
-                </Link>
-                <Link
-                  to="mailto:rubia.gabriely.souza.magalhaes@gmail.com"
+                </a>
+                <a
+                  href="mailto:rubia.gabriely.souza.magalhaes@gmail.com"
                   target="_blank"
+                  rel="noopener noreferrer"
                   className="flex items-center gap-3 sm:gap-4 p-3 rounded-lg hover:bg-cold-pink/10 transition-colors group"
                 >
                   <Mail className="w-5 h-5 sm:w-6 sm:h-6 text-dark-blue" />
                   <span className="text-base sm:text-lg">rubia.gabriely.souza.magalhaes@gmail.com</span>
-                </Link>
-                <Link
-                  to="https://maps.app.goo.gl/HWv6hUmtKvUALynJ6"
+                </a>
+                <a
+                  href="https://maps.app.goo.gl/HWv6hUmtKvUALynJ6"
                   target="_blank"
+                  rel="noopener noreferrer"
                   className="flex items-center gap-3 sm:gap-4 p-3 rounded-lg hover:bg-cold-pink/10 transition-colors group"
                 >
                   <MapPin className="w-5 h-5 sm:w-6 sm:h-6 text-dark-blue" />
                   <span className="text-base sm:text-lg">Umuarama, Paraná</span>
-                </Link>
+                </a>
               </div>
             </div>
             <div className="text-center text-base sm:text-lg text-dark-blue/70 animate-fade-in-delayed">
